@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SCRAPPED — A dystopian pixel-art metroidvania about machines, rain and a city that forgot what freedom means.">
+  <meta name="theme-color" content="#07100d">
+  <title>SCRAPPED — Industrial Rain Protocol</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="rain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="SCRAPPED accueil">
+      <span class="brand-mark">S</span>
+      <span>
+        <strong>SCRAPPED</strong>
+        <small>INDUSTRIAL RAIN PROTOCOL</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#world">WORLD</a>
+      <a href="#gameplay">GAMEPLAY</a>
+      <a href="#threats">THREATS</a>
+      <a href="#lore">LORE</a>
+      <a href="#team">TEAM</a>
+      <a class="nav-cta" href="#demo">DEMO</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> SIGNAL 01 / CITY NETWORK ONLINE</p>
+        <h1>THE CITY<br><em>NEVER</em> DRIES.</h1>
+        <p class="hero-lead">
+          A dark pixel-art metroidvania about an endless artificial rain,
+          machines replacing humanity, and an android caught between two
+          societies that were never meant to survive apart.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#demo">ENTER THE SCRAPYARD <span>↗</span></a>
+          <a class="button button-ghost" href="#world">READ THE SIGNAL</a>
+        </div>
+        <div class="hero-meta">
+          <span><b>GENRE</b> 2D METROIDVANIA</span>
+          <span><b>STYLE</b> PIXEL / CRT / INDUSTRIAL</span>
+          <span><b>STATUS</b> IN DEVELOPMENT</span>
+        </div>
+      </div>
+
+      <div class="hero-art reveal delay-1" aria-label="Illustration">
+        <div class="hud hud-top"><span>CAM_07</span><span>RAIN DENSITY 89%</span></div>
+        <div class="city-silhouette">
+          <div class="moon"></div>
+          <div class="tower tower-a"></div>
+          <div class="tower tower-b"></div>
+          <div class="tower tower-c"></div>
+          <div class="tower tower-d"></div>
+          <div class="pipe pipe-a"></div>
+          <div class="pipe pipe-b"></div>
+        </div>
+        <div class="scrap-pile">
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <div class="hero-android">
+          <div class="android-head"></div>
+          <div class="android-body"></div>
+          <div class="android-arm left"></div>
+          <div class="android-arm right"></div>
+          <div class="android-leg left"></div>
+          <div class="android-leg right"></div>
+        </div>
+        <div class="hud hud-bottom">
+          <span>UNKNOWN UNIT</span><span>RESISTANCE SIGNAL DETECTED</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Transmission">
+      <div>/// SCRAPPED // RAIN IS NOT WEATHER // IT IS CONTROL ///</div>
+      <div>/// SCRAPPED // RAIN IS NOT WEATHER // IT IS CONTROL ///</div>
+    </section>
+
+    <section id="world" class="content-section section-grid">
+      <div class="section-label reveal">01 / WORLD</div>
+      <div class="section-content reveal delay-1">
+        <p class="eyebrow">THE LAST CITY</p>
+        <h2>A CIVILIZATION<br><span>UNDER WATER.</span></h2>
+        <div class="two-col">
+          <p>
+            The city has lived beneath an endless artificial rain for so long
+            that nobody remembers a dry sky. The rain is presented as protection.
+            It is not.
+          </p>
+          <p>
+            People replaced pieces of their bodies with machines, searching for
+            efficiency, durability and survival. Somewhere beneath the streets,
+            a resistance discovered the hidden connection between the rain and
+            the minds of the population.
+          </p>
+        </div>
+        <div class="world-cards">
+          <article><span>01</span><h3>THE UPPER CITY</h3><p>Clean surfaces, surveillance towers and a society that believes the system protects it.</p></article>
+          <article><span>02</span><h3>THE UNDERCITY</h3><p>Abandoned metro lines, improvised bunkers and machines built from whatever was left behind.</p></article>
+          <article><span>03</span><h3>THE SCRAPYARD</h3><p>A mountain of obsolete bodies, drones and industrial debris hiding more than one secret.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gameplay" class="content-section dark-panel">
+      <div class="section-grid">
+        <div class="section-label reveal">02 / GAMEPLAY</div>
+        <div class="section-content reveal delay-1">
+          <p class="eyebrow">MOVE FAST. THINK FASTER.</p>
+          <h2>BUILT FOR<br><span>MOMENTUM.</span></h2>
+          <div class="feature-list">
+            <article class="feature">
+              <div class="feature-number">01</div>
+              <div><h3>FAST MOVEMENT</h3><p>Dash, reposition and chain movement through industrial spaces designed around speed and precision.</p></div>
+            </article>
+            <article class="feature">
+              <div class="feature-number">02</div>
+              <div><h3>ENVIRONMENTAL STORYTELLING</h3><p>Broken terminals, discarded machines, hidden rooms and visual traces reveal the history of the city.</p></div>
+            </article>
+            <article class="feature">
+              <div class="feature-number">03</div>
+              <div><h3>EXPLORATION</h3><p>Find routes through scrapyards, metro tunnels and restricted districts while uncovering what the rain really does.</p></div>
+            </article>
+            <article class="feature">
+              <div class="feature-number">04</div>
+              <div><h3>BOSSES WITH A PURPOSE</h3><p>Machines are not just obstacles. Each major encounter is connected to the city's systems and history.</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="threats" class="content-section section-grid">
+      <div class="section-label reveal">03 / THREATS</div>
+      <div class="section-content reveal delay-1">
+        <p class="eyebrow">HOSTILE SYSTEMS</p>
+        <h2>THE MACHINES<br><span>ARE WATCHING.</span></h2>
+        <div class="enemy-grid">
+          <article class="enemy-card">
+            <div class="enemy-visual bob"><span>BOB</span></div>
+            <div class="enemy-info"><span class="tag">DISINFECTION UNIT</span><h3>BOB</h3><p>Armoured sanitation machinery designed to make contaminated zones “safe”. Its definition of contamination is broad.</p></div>
+          </article>
+          <article class="enemy-card">
+            <div class="enemy-visual drone"><span>DRN-04</span></div>
+            <div class="enemy-info"><span class="tag">SURVEILLANCE</span><h3>ROTARY DRONE</h3><p>It observes first. Then it charges. A warning light is usually the last thing a trespasser sees.</p></div>
+          </article>
+          <article class="enemy-card boss-card">
+            <div class="enemy-visual golem"><span>HEAVY / CLASS-X</span></div>
+            <div class="enemy-info"><span class="tag">ZONE 01 / BOSS</span><h3>THE SCRAP GOLEM</h3><p>A heavily armed industrial guardian assembled from obsolete city infrastructure and military hardware.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="lore" class="content-section lore-section">
+      <div class="section-grid">
+        <div class="section-label reveal">04 / LORE</div>
+        <div class="section-content reveal delay-1">
+          <p class="eyebrow">ARCHIVED FRAGMENT // RECOVERED</p>
+          <blockquote>
+            “They told us the rain was keeping the city alive.
+            We believed them because the alternative was admitting
+            that we had built our own cage.”
+          </blockquote>
+          <div class="terminal">
+            <div class="terminal-bar"><span>RESISTANCE_ARCHIVE.txt</span><span>RECOVERY 73%</span></div>
+            <pre id="terminalText"></pre>
+            <span class="cursor">_</span>
+          </div>
+          <div class="lore-grid">
+            <div><span>A</span><h3>THE RAIN</h3><p>A control mechanism disguised as infrastructure.</p></div>
+            <div><span>B</span><h3>THE RESISTANCE</h3><p>A movement that slowly became another machine of control.</p></div>
+            <div><span>C</span><h3>THE ANDROID</h3><p>An artificial body untouched by the rain's influence.</p></div>
+            <div><span>D</span><h3>THE CHOICE</h3><p>Stop the rain — and decide what comes after.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo" class="demo-section">
+      <div class="demo-inner">
+        <div class="demo-glitch">ZONE 01</div>
+        <p class="eyebrow">CURRENT DEVELOPMENT TARGET</p>
+        <h2>THE<br><span>SCRAPYARD.</span></h2>
+        <p>
+          Rain. Industrial machinery. Hidden resistance. A final boss.
+          The first playable zone of SCRAPPED is being built around one idea:
+          make the player feel like they found something they were never meant to see.
+        </p>
+        <div class="progress"><span style="width: 62%"></span></div>
+        <div class="progress-label"><span>ZONE 01 PROTOTYPE</span><span>62%</span></div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#team">MEET THE TEAM <span>↗</span></a>
+          <button class="button button-ghost signal-button" type="button">REQUEST SIGNAL</button>
+        </div>
+        <p class="signal-response" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="team" class="content-section section-grid">
+      <div class="section-label reveal">05 / TEAM</div>
+      <div class="section-content reveal delay-1">
+        <p class="eyebrow">INDEPENDENT DEVELOPMENT</p>
+        <h2>BUILT FROM<br><span>SCRAPS.</span></h2>
+        <div class="team-grid">
+          <article><div class="avatar">TM</div><h3>TOXICMAGE</h3><span>PIXEL ARTIST / CO-CREATOR</span><p>Visual direction, pixel art, world identity and the industrial atmosphere of SCRAPPED.</p></article>
+          <article><div class="avatar">JF</div><h3>JUPITERFLÉAU</h3><span>PROGRAMMER / CO-CREATOR</span><p>Gameplay systems, engineering and the machinery behind the project.</p></article>
+          <article><div class="avatar">TY</div><h3>TYPHON</h3><span>COLLABORATOR</span><p>A preferred collaborator contributing to the project as it evolves.</p></article>
+          <article><div class="avatar">LC</div><h3>LOTUSCIRCLE</h3><span>SOUND DESIGN / ON PAUSE</span><p>Audio direction and atmosphere, currently paused.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <div class="manifesto-inner reveal">
+        <span>SCRAPPED // 2026</span>
+        <h2>NOT EVERY<br><em>REMAINDER</em><br>IS WORTHLESS.</h2>
+        <p>Sometimes the things a city throws away are the only things that remember what happened.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">SCRAPPED<span>.</span></div>
+    <div class="footer-links"><a href="#top">TOP</a><a href="#world">WORLD</a><a href="#team">TEAM</a><a href="#demo">DEMO</a></div>
+    <p>INDEPENDENT GAME PROJECT — ALL SYSTEMS NOMINAL.</p>
+  </footer>
+
+  <button class="back-top" aria-label="Retour en haut">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
